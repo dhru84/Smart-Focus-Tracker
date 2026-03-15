@@ -1,0 +1,57 @@
+body {
+  width: 300px;
+  padding: 20px;
+  font-family: 'Segoe UI Emoji', 'Noto Color Emoji', 'Arial', sans-serif;
+  margin: 0;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+#sidebarBtn {
+  background: #4CAF50;
+  color: white;
+}
+
+#floatingBtn {
+  background: #2196F3;
+  color: white;
+}
+
+#themeToggle {
+  background: #555;
+  color: white;
+}
+
+body.dark {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark button {
+  color: white;
+}
+
+body.dark #themeToggle {
+  background: #aaa;
+  color: black;
+}
