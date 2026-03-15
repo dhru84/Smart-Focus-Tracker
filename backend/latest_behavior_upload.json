@@ -1,0 +1,90 @@
+{
+  "behavior": [
+    {
+      "domain": "www.instagram.com",
+      "clicks": 104,
+      "keystrokes": 0,
+      "lastUpdated": "2026-03-14T17:45:11.637Z",
+      "mouseMovements": 688,
+      "pageLoadTime": 1773509974953,
+      "scrolls": 131,
+      "sessionDuration": 336684,
+      "timeOfDay": "2026-03-14T17:42:10.381Z",
+      "typingSpeed": {
+        "sessions": [],
+        "totalKeys": 0,
+        "totalTime": 0
+      },
+      "url": "https://www.instagram.com/"
+    },
+    {
+      "domain": "claude.ai",
+      "clicks": 0,
+      "keystrokes": 0,
+      "lastUpdated": "2026-03-14T17:42:04.516Z",
+      "mouseMovements": 1,
+      "pageLoadTime": 1773510116572,
+      "scrolls": 0,
+      "sessionDuration": 7944,
+      "timeOfDay": "2026-03-14T17:41:56.571Z",
+      "typingSpeed": {
+        "sessions": [],
+        "totalKeys": 0,
+        "totalTime": 0
+      },
+      "url": "https://claude.ai/"
+    },
+    {
+      "domain": "www.youtube.com",
+      "clicks": 2,
+      "keystrokes": 0,
+      "lastUpdated": "2026-03-14T17:39:32.330Z",
+      "mouseMovements": 37,
+      "pageLoadTime": 1773509913485,
+      "scrolls": 12,
+      "sessionDuration": 58845,
+      "timeOfDay": "2026-03-14T17:39:30.402Z",
+      "typingSpeed": {
+        "sessions": [],
+        "totalKeys": 0,
+        "totalTime": 0
+      },
+      "url": "https://www.youtube.com/"
+    },
+    {
+      "domain": "localhost",
+      "clicks": 0,
+      "keystrokes": 0,
+      "lastUpdated": "2026-03-14T17:26:24.370Z",
+      "mouseMovements": 0,
+      "pageLoadTime": 1773509184369,
+      "scrolls": 0,
+      "sessionDuration": 1,
+      "timeOfDay": "2026-03-14T17:26:24.369Z",
+      "typingSpeed": {
+        "sessions": [],
+        "totalKeys": 0,
+        "totalTime": 0
+      },
+      "url": "http://localhost:5000/"
+    },
+    {
+      "domain": "www.youtube.com",
+      "clicks": 0,
+      "keystrokes": 0,
+      "lastUpdated": "2026-03-14T16:50:38.742Z",
+      "mouseMovements": 14,
+      "pageLoadTime": 1773506620505,
+      "scrolls": 0,
+      "sessionDuration": 418237,
+      "timeOfDay": "2026-03-14T16:48:08.098Z",
+      "typingSpeed": {
+        "sessions": [],
+        "totalKeys": 0,
+        "totalTime": 0
+      },
+      "url": "https://www.youtube.com/"
+    }
+  ],
+  "uploadedAt": "2026-03-14T18:03:54.174Z"
+}
