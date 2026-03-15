@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Productivity Guard",
+  "version": "1.0.0",
+  "description": "AI-powered productivity extension to manage distractions and track goals",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "scripting",
+    "alarms",
+    "notifications",
+    "downloads"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:5000/*",
+    "<all_urls>"
+],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Productivity Guard"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "sound.wav",
+        "popup.html"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
